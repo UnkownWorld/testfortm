@@ -42,4 +42,32 @@
     
     <!-- 其他 -->
     <string name="feature_coming_soon">功能开发中，敬请期待</string>
+    
+    <!-- 设置页面 -->
+    <string name="settings">设置</string>
+    <string name="appearance">外观</string>
+    <string name="dark_mode">深色模式</string>
+    <string name="dark_mode_desc">启用深色主题保护眼睛</string>
+    <string name="auto_download_cover">自动下载封面</string>
+    <string name="auto_download_cover_desc">下载小说时自动下载封面图片</string>
+    <string name="download_settings">下载设置</string>
+    <string name="download_path">下载路径</string>
+    <string name="default_format">默认格式</string>
+    <string name="select_format">选择格式</string>
+    <string name="storage">存储</string>
+    <string name="clear_cache">清理缓存</string>
+    <string name="about">关于</string>
+    <string name="about_message">番茄小说下载器 v1.0.0\n\n一款用于下载番茄小说内容的工具应用。\n\n仅供学习研究使用，请勿用于商业用途。</string>
+    <string name="version_info">版本 1.0.0</string>
+    
+    <!-- 导航 -->
+    <string name="nav_home">首页</string>
+    <string name="nav_tasks">任务</string>
+    <string name="nav_settings">设置</string>
+    
+    <!-- 阅读器 -->
+    <string name="reader">阅读</string>
+    <string name="previous_chapter">上一章</string>
+    <string name="next_chapter">下一章</string>
+    <string name="chapter_list">目录</string>
 </resources>
