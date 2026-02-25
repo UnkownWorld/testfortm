@@ -64,10 +64,25 @@
     <string name="nav_home">首页</string>
     <string name="nav_tasks">任务</string>
     <string name="nav_settings">设置</string>
+    <string name="nav_bookshelf">书架</string>
     
     <!-- 阅读器 -->
     <string name="reader">阅读</string>
     <string name="previous_chapter">上一章</string>
     <string name="next_chapter">下一章</string>
     <string name="chapter_list">目录</string>
+    
+    <!-- 书架 -->
+    <string name="bookshelf">书架</string>
+    <string name="search_bookshelf">搜索书架</string>
+    <string name="empty_bookshelf">书架空空如也\n快去添加喜欢的小说吧</string>
+    <string name="remove_from_bookshelf">从书架移除</string>
+    <string name="remove_from_bookshelf_message">确定要从书架移除这本书吗？</string>
+    <string name="add_to_bookshelf">加入书架</string>
+    <string name="already_in_bookshelf">已在书架中</string>
+    
+    <!-- 搜索历史 -->
+    <string name="search_history">搜索历史</string>
+    <string name="clear_history">清空历史</string>
+    <string name="clear_history_message">确定要清空所有搜索历史吗？</string>
 </resources>

@@ -2,9 +2,7 @@ package com.tomato.novel.downloader.di
 
 import android.content.Context
 import androidx.room.Room
-import com.tomato.novel.downloader.data.local.AppDatabase
-import com.tomato.novel.downloader.data.local.DownloadTaskDao
-import com.tomato.novel.downloader.data.local.DownloadedChapterDao
+import com.tomato.novel.downloader.data.local.*
 import com.tomato.novel.downloader.data.remote.ApiConfig
 import com.tomato.novel.downloader.data.remote.LocalApiService
 import com.tomato.novel.downloader.data.remote.TomatoApiService
@@ -51,6 +49,16 @@ object DatabaseModule {
     @Provides
     fun provideDownloadedChapterDao(database: AppDatabase): DownloadedChapterDao {
         return database.downloadedChapterDao()
+    }
+    
+    @Provides
+    fun provideSearchHistoryDao(database: AppDatabase): SearchHistoryDao {
+        return database.searchHistoryDao()
+    }
+    
+    @Provides
+    fun provideBookshelfDao(database: AppDatabase): BookshelfDao {
+        return database.bookshelfDao()
     }
 }
 
