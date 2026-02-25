@@ -72,6 +72,19 @@
     <string name="next_chapter">下一章</string>
     <string name="chapter_list">目录</string>
     
+    <!-- 阅读设置 -->
+    <string name="reader_settings">阅读设置</string>
+    <string name="font_size">字体大小</string>
+    <string name="line_spacing">行间距</string>
+    <string name="brightness">亮度</string>
+    <string name="background_color">背景颜色</string>
+    <string name="reset_settings">重置设置</string>
+    <string name="bg_white">白色</string>
+    <string name="bg_sepia">护眼色</string>
+    <string name="bg_green">绿色</string>
+    <string name="bg_gray">灰色</string>
+    <string name="bg_black">黑色</string>
+    
     <!-- 书架 -->
     <string name="bookshelf">书架</string>
     <string name="search_bookshelf">搜索书架</string>
@@ -85,4 +98,10 @@
     <string name="search_history">搜索历史</string>
     <string name="clear_history">清空历史</string>
     <string name="clear_history_message">确定要清空所有搜索历史吗？</string>
+    
+    <!-- 导出 -->
+    <string name="export_epub">导出EPUB</string>
+    <string name="export_txt">导出TXT</string>
+    <string name="export_success">导出成功</string>
+    <string name="export_failed">导出失败</string>
 </resources>
